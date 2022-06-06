@@ -48,7 +48,8 @@
         <a href="{{note_items.url}}" style="text-decoration: none;">
             <h4>{{ note_items.title }}</h4>
             <div class="content">
-                <p style="margin: 0px;">
+                <i>{{ note_items.date }}</i>
+                <p style="margin: 5px 0px;">
                     {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | escape | truncate: 260 }}
                 </p>
             </div>
