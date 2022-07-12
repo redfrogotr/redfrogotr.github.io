@@ -50,7 +50,7 @@
             <div class="content">
                 <i>{{ note_items.date }}</i>
                 <p style="margin: 5px 0px;">
-                    {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | escape | truncate: 260 }}
+                    {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | escape | truncate: 150 }}
                 </p>
             </div>
         </a>
