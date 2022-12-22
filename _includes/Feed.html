@@ -48,7 +48,7 @@
         <a href="{{note_items.url}}" style="text-decoration: none;">
             <h4>{{ note_items.title }}</h4>
             <div class="content">
-                <i>{{ note_items.date | date_to_long_string: "ordinal", "US" }}</i>
+                <i>{{ note_items.date | date_to_rfc822 }}</i>
                 <p style="margin: 5px 0px;">
                     {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | escape | truncate: 150 }}
                 </p>
