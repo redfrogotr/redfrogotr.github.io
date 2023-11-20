@@ -6,3 +6,4 @@ _notes/.obsidian
 _posts/.obsidian
 .obsidian
 .DS_Store
+node_modules
