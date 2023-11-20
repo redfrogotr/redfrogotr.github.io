@@ -1,7 +1,7 @@
 ---
 title : Hello World!
 notetype : feed
-date : 06-06-2022
+date : 2022-06-06
 ---
 
 It's a good time.

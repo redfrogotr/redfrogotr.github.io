@@ -1,7 +1,9 @@
 ---
-title: Read *Atomic Habits*
+title: Atomic Habits
 notetype: feed
 date: 2023-07-09
+categories: 
+- Reading Notes
 ---
 
 I spend almost two months intermittently reading this english book that enlightens me from many perspectives. Maybe due to it is an english book I don't recognize every word, I have to read it carefully, so that I think I have gotten more acknowledge than reading a normal Chinese book. So time really can affect our recognization even if for the same book.

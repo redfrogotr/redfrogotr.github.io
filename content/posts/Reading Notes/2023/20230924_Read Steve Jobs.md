@@ -1,7 +1,9 @@
 ---
-title: Read *Steve Jobs*
+title: Steve Jobs
 notetype: feed
 date: 2023-09-24
+categories: 
+- Reading Notes
 ---
 
 One month ago, I had finished reading this book, this English, information-sufficient, with many infamiliar words book. I think it is deserved that brings extremely diverse experiences and has been inspiring me, though it spends lots of time.
