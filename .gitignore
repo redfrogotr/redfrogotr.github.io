@@ -7,3 +7,4 @@ _posts/.obsidian
 .obsidian
 .DS_Store
 node_modules
+public
