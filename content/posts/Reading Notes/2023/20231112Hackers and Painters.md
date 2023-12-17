@@ -1,5 +1,5 @@
 ---
-title : Hackers and Painters
+title : Read: Hackers and Painters
 notetype : feed
 date : 2023-11-12
 categories: 
