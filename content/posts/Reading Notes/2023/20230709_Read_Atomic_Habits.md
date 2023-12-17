@@ -1,5 +1,5 @@
 ---
-title: Read: Atomic Habits
+title: Read/ Atomic Habits
 notetype: feed
 date: 2023-07-09
 categories: 

@@ -1,5 +1,5 @@
 ---
-title: Read: Steve Jobs
+title: Read/ Steve Jobs
 notetype: feed
 date: 2023-09-24
 categories: 
