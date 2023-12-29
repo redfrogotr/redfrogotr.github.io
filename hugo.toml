@@ -1,4 +1,4 @@
-baseURL = "https://michaelneuper.github.io/hugo-texify3/"
+baseURL = "https://github.com/jpanther/congo/v2"
 disqusShortname = ""
 enableGitInfo = true
 enableRobotsTXT = true
@@ -6,12 +6,12 @@ hasCJKLanguage = true
 languageCode = "en"
 paginate = 5
 rssLimit = 10
-theme = "hugo-texify3"
-title = "Redfrogotr"
+theme = "congo"
+title = "Redfrogotr's Blog"
 
 [author]
 name = "Sean Sun"
-email = "michael@michaelneuper.com"
+email = "468027451@qq.com"
 
 [taxonomies]
 tags = "tags"
@@ -19,11 +19,11 @@ categories = "categories"
 series = 'series'
 
 [params]
-title="Redfrogotr"
+title="Redfrogotr's Blog"
 description = "The journey is the reward."
 footnote = """
 Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
-Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
+Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>REPLACE ME</a>
 """
 customCSS = []
 customJS = []
