@@ -1,3 +1,1 @@
-Welcome to my blog website!
-
-Have fun! 🐳
+只因在劫难逃，万物更显美好，你永远不会比此刻更美，我们也永远不会重回此地。
