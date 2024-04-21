@@ -14,7 +14,7 @@ title = "Redfrogotr's Blog"
 
 [author]
   name = "Redfrogotr"
-  # image = "img/author.jpg"
+  image = "img/author.jpg"
   headline = "The journey is the reward."
   bio = "The journey is the reward."
   # links = [
