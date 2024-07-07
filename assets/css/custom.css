@@ -1,8 +1,14 @@
 /* Increase the default font size */
+@font-face {
+  font-family: "Swei Spring CJKtc";
+  src: url("/font/SweiSpringCJKtc-Black.ttf") format('truetype');
+}
+
 html {
-   /* font-family: 'Apple LiSung';  */
-	/* font-family: 'HanziPen SC'; */
   font-family: 'Swei Spring CJKtc';
 }
 
+body {
+  font-family: 'Swei Spring CJKtc';
+}
 
