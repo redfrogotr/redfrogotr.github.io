@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Swei Spring CJKtc";
+  src: url("/fonts/SweiSpringCJKtc-Black.ttf") format('truetype');
+}
+
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans-Regular.ttf") format('truetype');
+}
