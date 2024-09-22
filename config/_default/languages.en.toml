@@ -12,13 +12,13 @@ title = "Redfrogotr's Blog"
   # mainSections = ["section1", "section2"]
   # description = "My awesome website"
 
-[author]
+[params.author]
   name = "Redfrogotr"
-  # image = "img/author.png"
-  headline = "The journey is the reward."
+  image = "img/author.jpeg"
+  # headline = "The journey is the reward."
   bio = "The journey is the reward."
   links = [
-    # { email = "mailto:468027451@qq.com" },
+    { email = "mailto:468027451@qq.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
@@ -30,7 +30,7 @@ title = "Redfrogotr's Blog"
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-    # { github = "https://github.com/redfrogotr" },
+    { github = "https://github.com/redfrogotr" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { hashnode = "https://username.hashnode.dev" },
@@ -57,6 +57,6 @@ title = "Redfrogotr's Blog"
   #   { tumblr = "https://username.tumblr.com" },
   #   { twitch = "https://twitch.tv/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
-    # { x-twitter = "https://twitter.com/username" },
+    { x-twitter = "https://x.com/SunLixin6" },
   #   { youtube = "https://youtube.com/username" },
   ]

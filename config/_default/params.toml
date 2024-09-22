@@ -18,7 +18,7 @@ fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "basic" # valid options: basic, hamburger, hybrid, custom
-  # logo = "img/logo.jpg"
+  # logo = "img/author.png"
   # logoDark = "img/dark-logo.jpg"
   showTitle = true
 
@@ -41,12 +41,12 @@ fingerprintAlgorithm = "sha256"
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
-  editAppendPath = true
+  # editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
   showReadingTime = false
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = true
   showWordCount = true
   showComments = true
