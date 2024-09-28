@@ -1,8 +1,10 @@
 html {
-  font-family: 'IBM Plex Sans';
+  /*font-family: 'IBM Plex Sans';*/
+  font-family: 'HanziPen SC';
 }
 
 body {
-  font-family: 'IBM Plex Sans';
+  /*font-family: 'IBM Plex Sans, Apple LiSung';*/
+  font-family: 'HanziPen SC';
 }
 
