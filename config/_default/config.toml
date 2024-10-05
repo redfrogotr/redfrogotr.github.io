@@ -9,9 +9,5 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
-googlefonts = ["IBM Plex Sans", "Fira Mono"]
-fontbody = 'IBM Plex Sans'
-fontcode = 'Fira Mono'
-
 [outputs]
   home = ["HTML", "RSS", "JSON"]
