@@ -6,7 +6,8 @@ hasCJKLanguage = true
 languageCode = "en"
 paginate = 5
 rssLimit = 10
-theme = "congo"
+# theme = "congo"
+theme = "smol"
 title = "Redfrogotr's Blog"
 
 [author]
@@ -18,65 +19,49 @@ tags = "tags"
 categories = "categories"
 series = 'series'
 
+# Parameters
 [params]
-title="Redfrogotr's Blog"
-description = "The journey is the reward."
-footnote = """
-Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
-Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>REPLACE ME</a>
-"""
-customCSS = []
-customJS = []
-dateFormat = "2 January 2006"
-emphasisWithDots = true
-toc = true
-rootFontSize = "105%"
-math = true
-enableDuckDuckGoSearchBox = true
-numberedSubtitles = true
+subtitle = "The journey is the reward."
+dateFmt = "2 January 2006"
 
-  [params.commentEngine]
-  code = """
-  <script src="https://giscus.app/client.js"
-        data-repo="michaelneuper/hugo-texify3"
-        data-repo-id="R_kgDOIjPNaQ"
-        data-category="General"
-        data-category-id="DIC_kwDOIjPNac4CaklA"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme=""
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-  </script>
-  """
+# Header
+[menu]
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 1
 
-  [params.buymeacoffee]
-  code = """
-  <script async data-name="BMC-Widget" 
-        data-cfasync="true" 
-        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" 
-        data-id="michaelneuper" 
-        data-description="Like what I do? Buy me a coffee!" 
-        data-message="" 
-        data-color="#d79921" 
-        data-position="Right" 
-        data-x_margin="18" 
-        data-y_margin="18"
-        crossorigin="anonymous">
-  </script>
-  """
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 2
 
-  [params.sharingbuttons]
-  facebook = false
-  twitter = true
-  email = true
-  linkedin = false
-  reddit = false
-  whatsapp = false
-  hackernews = true
-  telegram = true
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 4
+
+# Footer
+[[menu.footer]]
+name = "Github"
+url = "https://github.com/redfrogotr"
+weight = 1
+
+[[menu.footer]]
+name = "X"
+url = "https://x.com/SunLixin6"
+weight = 2
+
+[[menu.footer]]
+name = "Mail"
+url = "mailto:468027451@qq.com"
+weight = 3

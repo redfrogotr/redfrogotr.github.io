@@ -3,7 +3,7 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Redfrogotr's Blog"
+# title = "Redfrogotr's Blog"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
