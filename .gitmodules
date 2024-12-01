@@ -1,4 +1,9 @@
-[submodule "themes/congo"]
-	path = themes/congo
-	url = https://github.com/jpanther/congo.git
+# [submodule "themes/congo"]
+# 	path = themes/congo
+# 	url = https://github.com/jpanther/congo.git
+# 	branch = stable
+
+[submodule "themes/smol"]
+	path = themes/smol
+	url = https://github.com/colorchestra/smol.git
 	branch = stable
