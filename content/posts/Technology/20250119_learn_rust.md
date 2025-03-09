@@ -107,6 +107,9 @@ Rust提供`Option`，而不提供null。
 1. String 是 Vector[u8] 的特殊实现，Rust String 支持 UTF-8 编码，这意味着一个字符可能使用1-4个字节，所以你不能直接下标索引访问对应字符。另外一点是它做不到O(1)的字符访问，因为它必须遍历整个collection。
 2. 结构体对象进入数据结构后，会发生 ownership move，我不确定来回的所有权移动是否会影响开发效率。
 
+!!! finish exercises about [Common Collections](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)
+
+
 ## 02 Rust独有的内存管理知识
 
 ### 2.1 所有权
@@ -116,6 +119,13 @@ Rust提供`Option`，而不提供null。
 	1. 一个对象只能有一个可变引用或是多个不可变引用。
 	2. 你做不到悬空引用，比如主对象已经被释放了，还有地方在引用它，Rust会让你编译不通过。
 3. 字符串切片（String Slice）是对一个字符串中一段字符序列的引用，它和引用字符串比较相似，同样有所有权保障。
+
+### 2.3 智能指针 Smart Pointer
+
+1. `Box`
+2. `Deref` and `DerefMut`: convert `&T` to `&U`
+3. `Drop` and method `drop`
+4. `Rc` that is *reference counting*
 ## 03 面向对象
 
 ### 3.1 类和结构体
@@ -150,6 +160,18 @@ struct Rectange {
 }
 ```
 
+### 泛型
+
+`fn function_name<T>`
+`struct Name<T>`
+`impl<X> Name<X>`
+`impl<X> Name<X> { fn do<Y>() }` <- This is ok!
+
+```rust
+fn time<T>() -> T {
+
+}
+```
 ## 05 异常
 
 1. `Result<T, E>`，`T` and `E` 是泛型，`Result` 是枚举类，包含 `Ok(T)` 和 `Err(E)`。
