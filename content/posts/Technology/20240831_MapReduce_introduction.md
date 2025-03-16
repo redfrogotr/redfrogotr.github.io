@@ -6,6 +6,7 @@ categories:
 tags:
   - DistributedSystem
   - MapReduce
+draft: true
 ---
 MapReduce论文在2004年发布，被看作*大数据*和*分布式系统*的起点，也是数据仓库和之后的流式系统（Streaming System）等很多数据产品的基石，很多编程语言也参考了其中的思想，比如Java `Streams` 中的`map`, `reduce`等，就利用了MapReduce可以**并行**处理数据的特点。非常流行的开源大数据框架*Hadoop*很多地方也都是基于MapReduce规范实现。
 
