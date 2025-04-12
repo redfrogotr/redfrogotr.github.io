@@ -4,12 +4,12 @@
 		<h1>{{ .Title }}</h1>
 		<b><time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time></b>
 		{{ range .Params.categories }}
-		<a href="{{ " /categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+		<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 		{{ end }}
 		{{ if and .Params.tags (gt (len .Params.tags) 0) }}
 		|
 		{{ range .Params.tags }}
-		<a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+		<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 		{{ end }}
 		{{ end }}
 
