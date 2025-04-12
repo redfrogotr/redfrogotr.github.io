@@ -1,18 +1,19 @@
 <article>
 	<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 	<b><time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time></b>
-	<!-- <br> -->
 	{{ range .Params.categories }}
-	<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+	<a href="{{ " /categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 	{{ end }}
-	|
+	{{ if and .Params.tags (gt (len .Params.tags) 0) }}
+	| 
 	{{ range .Params.tags }}
-	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+	<a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 	{{ end }}
-	<div>
+	{{ end }}
+	<!-- <div>
 		{{ .Summary }}
 		{{ if .Truncated }}
 			<a href="{{ .Permalink }}">Read more...</a>
 		{{ end }}
-	</div>
+	</div> -->
 </article>
