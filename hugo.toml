@@ -7,7 +7,8 @@ languageCode = "en"
 paginate = 5
 rssLimit = 10
 # theme = "congo"
-theme = "smol"
+# theme = "smol"
+# theme = "poison"
 title = "Redfrogotr's Blog"
 
 [author]
