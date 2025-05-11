@@ -7,3 +7,6 @@
 	path = themes/smol
 	url = https://github.com/colorchestra/smol.git
 	branch = stable
+[submodule "themes/poison"]
+	path = themes/poison
+	url = https://github.com/lukeorth/poison.git
