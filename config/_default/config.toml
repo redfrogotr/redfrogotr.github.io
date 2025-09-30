@@ -24,9 +24,11 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         {Name = "About", URL = "/about/", HasChildren = false},
         # {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
         {Name = "Posts", URL = "/posts/", HasChildren = true, Limit = 5},
-        {Name = "回顾", URL = "/review/", HasChildren = true, Limit = 5},
+        {Name = "Reflections", URL = "/reviews/", HasChildren = true, Limit = 5},
         # {Name = "Tags", URL = "/tags/", HasChildren = false, Limit = 5},
     ]
+
+    front_page_content = ["posts", "reviews"]
 
     hideToc = false
 
