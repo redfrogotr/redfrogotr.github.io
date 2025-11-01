@@ -9,7 +9,7 @@ categories:
 ---
 Ok, let's start.
 
-This month it rained a lot. It's just like emotions, fulfilled by the rain but also damped and wrapped tightly by it. Of course, we saw sunshine sometimes. People in my hometown expect the good weather because dry lands make it possible collecting corns. All of them depend on the weather to live. We are similar. We depends on something in city, such as content consumers, personal consumers in supermarket or some businesses. All of them are unpredictable, even though personal endeavor plays a certain level role in it. A sentence in *[The Art Of War](https://en.wikipedia.org/wiki/The_Art_of_War)* is "天时地利人和", which orders these features. **So don't be too sad for current selves. You must be patient for good time.**
+This month it rained a lot. It's just like emotions, fulfilled by the rain but also damped and wrapped tightly by it. Of course, we saw sunshine sometimes. People in my hometown expect the good weather because dry lands make it possible collecting corns. All of them depend on the weather to live. We are similar. We depends on something in city, such as content consumers, personal consumers in supermarket or some businesses. All of them are unpredictable, even though personal endeavor plays a certain level role in it. A sentence in *[The Art Of War](https://en.wikipedia.org/wiki/The_Art_of_War)* is "天时地利人和", which orders these features. **So don't be so sad for current selves. You must be patient for good time.**
 
 ## 1. Highlights of the Month
 
@@ -68,11 +68,11 @@ This month it rained a lot. It's just like emotions, fulfilled by the rain but a
 	- Absolutely, it's my APS test, included two parts: course materials and memorizing them with mock tests.
 	- Second, I'd like to finish two books next month.
 	- Third, write 5 articles like weekly reviews and notes.
-	- Fourth, learn 4 hours programming for Swift language.
+	- Fourth, learn 4 hours programming for Swift language. ✅done @11.01
 - What habits do I want to **start, stop, or continue**?
 	- One, insist on writing.
 	- Two, insist on reading.
-	- Three, stop watching Bilibili and RedNote.
-	- Fourth, **I'll practice social media detox extremely.**
+	- **Three, stop watching Bilibili and RedNote.** Not yet.
+	- Fourth, **I'll practice social media detox extremely.** Not yet.
 - One word or phrase to **set the tone** for next month:
 	- We can not change rapidly. We must be patient for progress.
