@@ -30,4 +30,4 @@ I get my answer. Writing is thinking. True.
 1. Two books: 《死屋手记》，《反脆弱》
 2. Try to run llm locally
 3. Build a wechat-mini app about personal profile using AI coding tool
-4. Study abroad application materials
+4. Finish my study abroad application materials
