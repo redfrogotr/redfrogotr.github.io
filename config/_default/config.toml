@@ -9,8 +9,8 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
 [params]
     brand = "Redfrogotr"                      # name of your site - appears in the sidebar
-    brand_image = "/images/brand_name.png"    # path to the image shown in the sidebar
-    description = "The journey is the reward." # Used as default meta description if not specified in front matter
+    brand_image = "/images/website-icon-myself-1to1.png"    # path to the image shown in the sidebar
+    description = "If there is conversation between us, please ask deep questions.🫡" # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
     favicon = "/icons/favicon-96x96.png"             # path to favicon (defaults to favicon.png)
 
@@ -34,7 +34,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
     # Links to your socials.  Comment or delete any you don't need/use. 
     # discord_url = "https://discord.com"
-    # email_url = "mailto://user@domain"
+    email_url = "mailto:468027451@qq.com"
     # facebook_url = "https://facebook.com"
     # flickr_url = "https://flickr.com"
     github_url = "https://github.com/redfrogotr"
@@ -58,12 +58,12 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     # Hex colors for your sidebar.
     moon_sun_background_color = "#515151"   # default is #515151
     moon_sun_color = "#FFF"                 # default is #FFF
-    sidebar_a_color = "#FFF"                # default is #FFF
-    sidebar_bg_color = "#202020"            # default is #202020
-    sidebar_h1_color = "#FFF"               # default is #FFF
+    sidebar_a_color = "#000"                # default is #FFF
+    sidebar_bg_color = "#8aebe9"            # default is #202020
+    sidebar_h1_color = "#000"               # default is #FFF
     sidebar_img_border_color = "#515151"    # default is #515151
-    sidebar_p_color = "#909090"             # default is #909090
-    sidebar_socials_color = "#FFF"          # default is #FFF
+    sidebar_p_color = "#000"             # default is #909090
+    sidebar_socials_color = "#000"          # default is #FFF
 
     # Hex colors for your content in light mode.
     code_color = "#000"                     # default is #000
