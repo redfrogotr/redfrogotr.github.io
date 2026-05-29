@@ -1,9 +1,27 @@
 html {
-  font-family: 'IBM Plex Sans';
+  font-family: "IBM Plex Sans", "PingFang SC", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 body {
-  font-family: 'IBM Plex Sans';
+  font-family: "IBM Plex Sans", "PingFang SC", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.sidebar-about h1 {
+  font-family: "Bradley Hand", "Segoe Print", "Comic Sans MS", cursive;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.sidebar-about .lead {
+  font-family: "Bradley Hand", "Segoe Print", "Comic Sans MS", cursive;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.35;
 }
 
 .sr-only {
