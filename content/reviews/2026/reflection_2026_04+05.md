@@ -27,7 +27,7 @@ Nowadays, AI has become more and more powerful. One year or 6 months ago I think
 
 Last 2~3 months, I have learned iOS dev and Figma design, but I still think there are a lot I need to learn. Then I realized I should start to build rather than keeping learning, which is an endless process. I believe I will know what I really need to learn in practice.
 
-Now, I'm time prosperity. But that's not always good, because it can easily lead to desire-less. It seems you can do everything, but you just don't know what to do. You can do one thing, also not. So why do it? We even can save more energy if not do it. 
+Now, I'm time prosperity. But that's not always good, because it can easily lead to desire-less. It seems you can do everything, but you just do nothing because you don't know what to do. You can do one thing, also not. So why do it? We even can save more energy if not do it. 
 
 I should find the real question, which is not intervened by hot trends. *If there is a talk between us, please ask a deep question🥹.* Can I? I don't know. How do I? Reading is one of solution.
 
