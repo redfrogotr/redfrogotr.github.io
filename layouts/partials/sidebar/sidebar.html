@@ -1,0 +1,25 @@
+<aside class="sidebar" id="site-sidebar">
+    <button class="sidebar-toggle" type="button" aria-controls="site-sidebar-content" aria-expanded="true" title="Collapse sidebar">
+        <svg class="sidebar-toggle-icon" aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+            <path class="sidebar-toggle-bar" d="M6 6v12"></path>
+            <path class="sidebar-toggle-bar" d="M10 6v12"></path>
+            <path class="sidebar-toggle-arrow" d="M14 7l6 5l-6 5z"></path>
+        </svg>
+        <span class="sr-only">Toggle sidebar</span>
+    </button>
+    <nav class="sidebar-collapsed-nav" aria-label="Collapsed sidebar navigation">
+        <a href="{{ .Site.BaseURL }}">Home</a>
+        {{ range .Site.Params.menu }}
+            {{ if .URL }}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+        {{ end }}
+    </nav>
+    {{ partial "light_dark.html" . }}
+    <div class="container sidebar-sticky" id="site-sidebar-content">
+        {{ partial "sidebar/title.html" . }}
+        {{ partial "sidebar/menu.html" . }}
+        {{ partial "sidebar/socials.html" . }}
+        {{ partial "sidebar/copyright.html" . }}
+  </div>
+</aside>
